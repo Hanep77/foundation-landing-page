@@ -24,10 +24,9 @@ export default function Home() {
                   <Link href="#about" className="w-16 h-16 flex justify-center items-center bg-cyan-800 rounded-full animate-bounce">
                     <Image src="/icons/down-lg.svg" alt="go down" width={24} height={24} />
                   </Link>
-                  <p className="tracking-wider text-xs text-slate-600">Let's Discover</p>
+                  <p className="tracking-wider text-xs text-slate-600">Discover More</p>
                 </div>
               </div>
-              {/* <Link href="#about">Discover more</Link> */}
             </div>
             <div className="hidden lg:flex gap-2 relative mt-8">
               <div>
