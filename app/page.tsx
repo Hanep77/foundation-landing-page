@@ -1,4 +1,5 @@
 import AboutSection from "./sections/AboutSection";
+import ContactSection from "./sections/ContactSection";
 import HomeSection from "./sections/HomeSection";
 
 export default function Home() {
@@ -11,6 +12,10 @@ export default function Home() {
 
         <section id="about">
           <AboutSection />
+        </section>
+
+        <section id="contact" className="relative flex justify-center pt-40 md:mt-0">
+          <ContactSection />
         </section>
       </main>
     </>
