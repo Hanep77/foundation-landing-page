@@ -22,7 +22,7 @@ export default function Home() {
                 </div>
                 <div className="flex flex-col items-center gap-1">
                   <Link href="#about" className="w-16 h-16 flex justify-center items-center bg-cyan-800 rounded-full animate-bounce">
-                    <img src="/icons/down-lg.svg" className="w-6" />
+                    <Image src="/icons/down-lg.svg" alt="go down" width={24} height={24} />
                   </Link>
                   <p className="tracking-wider text-xs text-slate-600">Let's Discover</p>
                 </div>
